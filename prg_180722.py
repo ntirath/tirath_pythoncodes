@@ -47,11 +47,30 @@ print("resultant tuple is the nested tuple:", Tuple4)
 print("3rd element of tuple2 in typle4 :", Tuple4[1][2])
 Tuple5 = Tuple3 + Tuple4
 print("Resultant Tuple5:", Tuple5)
-
+'''
 tuple6 =(0,0,0)
 tuple6[0] = "Tirath"
 tuple6[1] = "Prasad"
 tuple6[2] = "Nagvekar"
 
 print("tuple6 = ", tuple6)
+Not possible for tuple
+'''
+#Set
+set1 = set()
+print("Initial blank Set:", set1)
 
+set2 = set("Python world")
+print("\n Set with the use of String:")
+print(set2)
+
+print("\nElement of set:")
+for i in set2:
+    print(i, end ='t')
+
+set3 = set(Tuple5)
+print("\n")
+
+print(set3)
+
+print(Tuple5)
