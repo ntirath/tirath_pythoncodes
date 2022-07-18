@@ -89,3 +89,5 @@ Dict3 = {"Tirath":'Prasad', 1:[1,2,3,4]}
 print("\nDictionary with the use of Mixed keys: ", Dict3)
 print("\nValue associated with Tirath", Dict3["Tirath"])
 print("\nValue associated with 2nd value of list 1", Dict3[1][1])
+Dict3[1][0] = 'E'
+print("\nDict3 now is", Dict3)
