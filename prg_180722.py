@@ -75,6 +75,7 @@ print(set3)
 
 print(Tuple5)
 
+#Dictionary
 Dict1 = {}
 print("\nEmpty Dictionary:")
 print(Dict1)
@@ -87,4 +88,4 @@ print("\nValue associated with key2", Dict2[2])
 Dict3 = {"Tirath":'Prasad', 1:[1,2,3,4]}
 print("\nDictionary with the use of Mixed keys: ", Dict3)
 print("\nValue associated with Tirath", Dict3["Tirath"])
-print("\nValue associated with Tirath", Dict3[1][1])
+print("\nValue associated with 2nd value of list 1", Dict3[1][1])
