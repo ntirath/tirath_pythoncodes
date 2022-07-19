@@ -52,3 +52,12 @@ c6 = L0[0][5]
 L1 = c6+c2+c3+c4+c5+c1
 print(L1)
 
+#division float
+a=12
+b=13
+c=a/b
+print(c)
+
+#division floor
+d = a//b
+print(d)
