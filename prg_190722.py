@@ -39,4 +39,16 @@ def key_check(x):
 s = int(input("Enter the value of key = "))
 key_check(s)
 
+#Change the given string to change first and last characters
+L0 = ['Tirath']
+print("String input is : ", L0)
+c1 = L0[0][0]
+c2 = L0[0][1]
+c3 = L0[0][2]
+c4 = L0[0][3]
+c5 = L0[0][4]
+c6 = L0[0][5]
+
+L1 = c6+c2+c3+c4+c5+c1
+print(L1)
 
