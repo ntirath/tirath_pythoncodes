@@ -61,3 +61,7 @@ print(c)
 #division floor
 d = a//b
 print(d)
+
+#Modulo
+e = a%b
+print(e)
