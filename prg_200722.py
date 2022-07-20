@@ -12,3 +12,12 @@ d2 = (a**2) + (2*a*b) + (b**2)
 print("The answer for (a**2) + (2*a*b) + (b**c) = ", d2)
 d3 = c1 + c3 + c2
 print("The answer for a^2 + b^2 + 2ab using separately calculated values = ", d3)
+
+a = 13
+b = 33
+print("Check if a >b =", a>b)
+print("Check if a < b =", a<b)
+print("Check if a is equal to b =", a==b)
+print("Check if a is not equal to a = ", a!=b)
+print("Check if a is greater then or equal to b =", a>=b)
+print("Check if a is less then or equal to a = ", a<=b)
