@@ -53,5 +53,6 @@ c = a>>2
 c = bin(c)
 print("Shifting 2 spaces to right of a value = ", c)
 c = a<<2
+print(c)
 c = bin(c)
 print("Shifting 2 spaces to left of a value = ", c)
