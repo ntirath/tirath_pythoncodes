@@ -30,3 +30,28 @@ print("Logical AND condition = ", (a and b))
 print("Logical OR condition = ", (a or b))
 print("Logical NOT condition for a = ", (not a))
 print("Logical NOT condition for b = ", (not b))
+
+b = 0b0101 # binary representation of 4
+a = 0b1010 # binary representation of 10
+
+
+c = a&b
+print("Value of bit wise ANDing = ",c)
+c = a|b
+c = bin(c)
+print("Value of bit wise ORing = ",c)
+c = ~a
+c = bin(c)
+print("Value of bit wise NOT on a = ",c)
+c = ~b
+c = bin(c)
+print("Value of bit wise NOT on b = ",c)
+c = a^b
+c = bin(c)
+print("Value of bit wise XOR = ",c)
+c = a>>2
+c = bin(c)
+print("Shifting 2 spaces to right of a value = ", c)
+c = a<<2
+c = bin(c)
+print("Shifting 2 spaces to left of a value = ", c)
