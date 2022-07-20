@@ -20,7 +20,7 @@ print("Check if a >b =", a>b)
 print("Check if a < b =", a<b)
 print("Check if a is equal to b =", a==b)
 print("Check if a is not equal to a = ", a!=b)
-print("Check if a is greater then or equal to b =", a>=b)
+print("Check if a is greater then or equal to b = ", a>=b)
 print("Check if a is less then or equal to a = ", a<=b)
 
 #Logical operators
