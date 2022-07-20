@@ -31,7 +31,7 @@ print("Logical OR condition = ", (a or b))
 print("Logical NOT condition for a = ", (not a))
 print("Logical NOT condition for b = ", (not b))
 
-b = 0b0101 # binary representation of 4
+b = 0b0100 # binary representation of 4
 a = 0b1010 # binary representation of 10
 
 
